@@ -1,0 +1,235 @@
+                                                                                                                     ::before ::after {
+                                                                                                                        padding: 0;
+                                                                                                                        margin: 0;
+                                                                                                                        box-sizing: border-box;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    body {
+                                                                                                                        font-family: sans-serif;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .carousel-item img {
+                                                                                                                        width: 200px;
+                                                                                                                        height: 340px;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .logo {
+                                                                                                                        width: 50px;
+                                                                                                                        height: 50px;
+                                                                                                                        border-radius: 50%;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    #close-btn {}
+                                                                                                                    
+                                                                                                                    #close-btn,
+                                                                                                                    #go-close {}
+                                                                                                                    
+                                                                                                                    #nasims-logo {
+                                                                                                                        width: 32%;
+                                                                                                                        height: 48%;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    body {
+                                                                                                                        font-family: Arial, Helvetica, sans-serif;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    * {
+                                                                                                                        box-sizing: border-box;
+                                                                                                                    }
+                                                                                                                    /* Button used to open the contact form - fixed at the bottom of the page */
+                                                                                                                    
+                                                                                                                    .open-button {
+                                                                                                                        background-color: rgb(46, 139, 87);
+                                                                                                                        color: white;
+                                                                                                                        font-size: medium;
+                                                                                                                        padding: 5px 5px 5px 5px;
+                                                                                                                        border: none;
+                                                                                                                        cursor: pointer;
+                                                                                                                        opacity: 0.8;
+                                                                                                                        position: fixed;
+                                                                                                                        bottom: 23px;
+                                                                                                                        right: 28px;
+                                                                                                                        width: 60px;
+                                                                                                                        height: 60px;
+                                                                                                                        border-radius: 100%;
+                                                                                                                        -webkit-border-radius: 100%;
+                                                                                                                        -moz-border-radius: 100%;
+                                                                                                                        -ms-border-radius: 100%;
+                                                                                                                        -o-border-radius: 100%;
+                                                                                                                    }
+                                                                                                                    /* The popup form - hidden by default */
+                                                                                                                    
+                                                                                                                    .form-popup {
+                                                                                                                        display: none;
+                                                                                                                        position: fixed;
+                                                                                                                        bottom: 0;
+                                                                                                                        right: 15px;
+                                                                                                                        border: 3px solid #f1f1f1;
+                                                                                                                        z-index: 9;
+                                                                                                                    }
+                                                                                                                    /* Add styles to the form container */
+                                                                                                                    
+                                                                                                                    .form-container {
+                                                                                                                        max-width: 300px;
+                                                                                                                        padding: 10px;
+                                                                                                                        background-color: white;
+                                                                                                                    }
+                                                                                                                    /* Full-width input fields */
+                                                                                                                    
+                                                                                                                    .form-container input[type=text],
+                                                                                                                    .form-container input[type=password] {
+                                                                                                                        width: 100%;
+                                                                                                                        padding: 15px;
+                                                                                                                        margin: 5px 0 22px 0;
+                                                                                                                        border: none;
+                                                                                                                        background: #f1f1f1;
+                                                                                                                    }
+                                                                                                                    /* When the inputs get focus, do something */
+                                                                                                                    
+                                                                                                                    .form-container input[type=text]:focus,
+                                                                                                                    .form-container input[type=password]:focus {
+                                                                                                                        background-color: #ddd;
+                                                                                                                        outline: none;
+                                                                                                                    }
+                                                                                                                    /* Set a style for the submit/login button */
+                                                                                                                    
+                                                                                                                    .form-container .btn {
+                                                                                                                        background-color: #04AA6D;
+                                                                                                                        color: white;
+                                                                                                                        padding: 16px 20px;
+                                                                                                                        border: none;
+                                                                                                                        cursor: pointer;
+                                                                                                                        width: 100%;
+                                                                                                                        margin-bottom: 10px;
+                                                                                                                        opacity: 0.8;
+                                                                                                                    }
+                                                                                                                    /* Add a red background color to the cancel button */
+                                                                                                                    
+                                                                                                                    .form-container .cancel {
+                                                                                                                        background-color: red;
+                                                                                                                    }
+                                                                                                                    /* Add some hover effects to buttons */
+                                                                                                                    
+                                                                                                                    .form-container .btn:hover,
+                                                                                                                    .open-button:hover {
+                                                                                                                        opacity: 1;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    #chat-btn-img {
+                                                                                                                        font-size: 28px;
+                                                                                                                    }
+                                                                                                                    /* nav {
+                                                                                                           transition: background 0.4s ease-in-out;
+                                                                                                           background: #010101;
+                                                                                                       }
+                                                                                                       
+                                                                                                       .is-hidden {
+                                                                                                           opacity: 0;
+                                                                                                           transition: transform 0.4s, opacity 0.2s;
+                                                                                                       }
+                                                                                                       
+                                                                                                       .fixed-top {
+                                                                                                           position: fixed;
+                                                                                                           top: 0;
+                                                                                                           right: 0;
+                                                                                                           left: 0;
+                                                                                                           z-index: 1030;
+                                                                                                       }
+                                                                                                       
+                                                                                                       .navbar-hide {
+                                                                                                           pointer-events: none;
+                                                                                                           opacity: 0;
+                                                                                                       }
+                                                                                                       
+                                                                                                       p {
+                                                                                                           font-size: 1.2rem;
+                                                                                                       }
+                                                                                                       
+                                                                                                       section {
+                                                                                                           padding-top: 8rem;
+                                                                                                           font-family: Verdana, Geneva, Tahoma, sans-serif;
+                                                                                                       }
+                                                                                                       
+                                                                                                       h1 {
+                                                                                                           font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                                                                                                           color: #f1f1f1;
+                                                                                                       }
+                                                                                                       
+                                                                                                       .col-centered {
+                                                                                                           margin: 0 auto;
+                                                                                                       }
+                                                                                                       
+                                                                                                       body {
+                                                                                                           background: #14161D;
+                                                                                                           color: #939089;
+                                                                                                       }
+                                                                                                       
+                                                                                                       .menu-hamburger {
+                                                                                                           bottom: calc(50% - 10px);
+                                                                                                           right: 0;
+                                                                                                           background-color: transparent;
+                                                                                                           border: none;
+                                                                                                           cursor: pointer;
+                                                                                                       }
+                                                                                                       
+                                                                                                       @media (max-width: 575.98px) {
+                                                                                                           .menu-hamburger {
+                                                                                                               bottom: calc(50% - 12px);
+                                                                                                           }
+                                                                                                       }
+                                                                                                       
+                                                                                                       .menu-hamburger span {
+                                                                                                           width: 30px;
+                                                                                                           height: 4px;
+                                                                                                           display: block;
+                                                                                                           background: #fafafa;
+                                                                                                           margin-bottom: 4px;
+                                                                                                       }
+                                                                                                       
+                                                                                                       .menu-hamburger span:last-of-type {
+                                                                                                           margin-bottom: 0;
+                                                                                                       }
+                                                                                                       
+                                                                                                       nav .navbar-header img {
+                                                                                                           max-width: 110px;
+                                                                                                       }
+                                                                                                       
+                                                                                                       @media (max-width: 767.98px) {
+                                                                                                           nav.h-navbar {
+                                                                                                               max-height: 90px;
+                                                                                                           }
+                                                                                                           nav .navbar-header img {
+                                                                                                               max-width: 90px;
+                                                                                                           }
+                                                                                                       }
+                                                                                                       
+                                                                                                       @media (max-width: 575.98px) {
+                                                                                                           nav.h-navbar {
+                                                                                                               max-height: 70px;
+                                                                                                           }
+                                                                                                           nav .navbar-header img {
+                                                                                                               max-width: 70px;
+                                                                                                           }
+                                                                                                       }
+                                                                                                       
+                                                                                                       nav .navbar-nav li.navbar-item {
+                                                                                                           line-height: 110px;
+                                                                                                           margin-left: -5px;
+                                                                                                       }
+                                                                                                       
+                                                                                                       nav .navbar-nav li.navbar-item a {
+                                                                                                           padding: 0 20px;
+                                                                                                       }
+                                                                                                       
+                                                                                                       @media (max-width: 991.98px) {
+                                                                                                           nav .navbar-nav li.navbar-item a {
+                                                                                                               padding: 0 10px;
+                                                                                                           }
+                                                                                                           .row {
+                                                                                                               width: 100%;
+                                                                                                           }
+                                                                                                       }
+                                                                                                       
+                                                                                                       nav .navbar-nav li ul li a p {
+                                                                                                           line-height: 1.4;
+                                                                                                       } */
